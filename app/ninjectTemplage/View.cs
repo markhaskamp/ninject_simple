@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using ninjectTemplage.TemplateSteps;
+using Ninject.Core;
 
 namespace ninjectTemplage
 {
@@ -11,7 +11,10 @@ namespace ninjectTemplage
         public View() {
             InitializeComponent();
 
-            presenter = new Presenter(this, new One(), new Two(), new Three());
+            NinjectSetterUpper module = new NinjectSetterUpper();
+            IKernel kernel = new StandardKernel(module);
+            presenter = kernel.Get<Presenter>();
+            presenter.setView(this);
         }
 
         private void btnStart_Click(object sender, EventArgs e) {

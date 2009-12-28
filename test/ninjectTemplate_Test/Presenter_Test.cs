@@ -22,7 +22,8 @@ namespace ninjectTemplate_Test
             one = mockery.DynamicMock<IOne>();
             two = mockery.DynamicMock<ITwo>();
             three = mockery.DynamicMock<IThree>();
-            presenter = new Presenter(view, one, two, three);
+            presenter = new Presenter(one, two, three);
+            presenter.setView(view);
         }
 
         [Test]
