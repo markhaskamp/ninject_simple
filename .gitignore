@@ -1,0 +1,7 @@
+app/ninjectTemplage/_ReSharper.ninjectTemplage
+app/ninjectTemplage/bin
+app/ninjectTemplage/obj
+
+test/ninjectTemplate_Test/bin
+test/ninjectTemplate_Test/obj
+
