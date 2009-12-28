@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ninjectTemplage", "ninjectTemplage.csproj", "{DB1B5B70-176A-431B-9EB1-33762CF3BA2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ninjectTemplate", "ninjectTemplate.csproj", "{DB1B5B70-176A-431B-9EB1-33762CF3BA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ninjectTemplate_Test", "..\..\test\ninjectTemplate_Test\ninjectTemplate_Test.csproj", "{D97D91BB-3C4C-4520-8B70-379058A92F22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{DB1B5B70-176A-431B-9EB1-33762CF3BA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB1B5B70-176A-431B-9EB1-33762CF3BA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB1B5B70-176A-431B-9EB1-33762CF3BA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97D91BB-3C4C-4520-8B70-379058A92F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97D91BB-3C4C-4520-8B70-379058A92F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97D91BB-3C4C-4520-8B70-379058A92F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97D91BB-3C4C-4520-8B70-379058A92F22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
