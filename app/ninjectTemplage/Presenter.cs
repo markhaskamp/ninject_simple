@@ -1,4 +1,3 @@
-using System;
 using ninjectTemplage.TemplateSteps;
 
 namespace ninjectTemplage
@@ -19,8 +18,13 @@ namespace ninjectTemplage
 
         public void Start() {
             one.stageIt();
+            view.didOne("staged it");
+
             two.doIt();
+            view.didTwo("did it");
+
             three.cleanIt();
+            view.didThree("cleaned it");
         }
     }
 }

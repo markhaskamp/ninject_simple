@@ -64,5 +64,44 @@ namespace ninjectTemplate_Test
             mockery.VerifyAll();
         }
 
+        [Test]
+        public void Start__Calls_IView_didOne() {
+            using (mockery.Record()) {
+                view.didOne("staged it");
+            }
+
+            using (mockery.Playback()) {
+                presenter.Start();
+            }
+
+            mockery.VerifyAll();
+        }
+
+        [Test]
+        public void Start__Calls_IView_didTwo() {
+            using (mockery.Record()) {
+                view.didTwo("did it");
+            }
+
+            using (mockery.Playback()) {
+                presenter.Start();
+            }
+
+            mockery.VerifyAll();
+        }
+
+        [Test]
+        public void Start__Calls_IView_didThree() {
+            using (mockery.Record()) {
+                view.didThree("cleaned it");
+            }
+
+            using (mockery.Playback()) {
+                presenter.Start();
+            }
+
+            mockery.VerifyAll();
+        }
+
     }
 }

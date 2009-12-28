@@ -53,6 +53,9 @@
     <Compile Include="TemplateSteps\IOne.cs" />
     <Compile Include="TemplateSteps\IThree.cs" />
     <Compile Include="TemplateSteps\ITwo.cs" />
+    <Compile Include="TemplateSteps\One.cs" />
+    <Compile Include="TemplateSteps\Three.cs" />
+    <Compile Include="TemplateSteps\Two.cs" />
     <Compile Include="View.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +68,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
