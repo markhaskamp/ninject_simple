@@ -6,13 +6,11 @@ namespace ninjectTemplage
 {
     public partial class View : Form, IView
     {
-        private Presenter presenter;
+        private readonly Presenter presenter;
 
-        public View() {
+        public View(IKernel kernel) {
             InitializeComponent();
 
-            NinjectSetterUpper module = new NinjectSetterUpper();
-            IKernel kernel = new StandardKernel(module);
             presenter = kernel.Get<Presenter>();
             presenter.setView(this);
         }

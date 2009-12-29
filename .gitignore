@@ -1,5 +1,6 @@
 app/ninjectTemplage/*.suo
 app/ninjectTemplage/_ReSharper.ninjectTemplage
+app/ninjectTemplage/_ReSharper.ninjectTemplate
 app/ninjectTemplage/bin
 app/ninjectTemplage/obj
 

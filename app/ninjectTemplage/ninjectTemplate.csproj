@@ -39,50 +39,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\thirdParty\ninject\Ninject.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Ninject.Extensions.AutoWiring, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Extensions.AutoWiring.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Extensions.Cache, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Extensions.Cache.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Extensions.MessageBroker, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Extensions.MessageBroker.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Framework.Web, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Framework.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Framework.WinForms, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Framework.WinForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Integration.AjaxPro, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Integration.AjaxPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Integration.DynamicProxy2, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Integration.DynamicProxy2.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Integration.LinFu, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Integration.LinFu.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Integration.Log4net, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Integration.Log4net.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Integration.MonoRail, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Integration.MonoRail.dll</HintPath>
-    </Reference>
-    <Reference Include="Ninject.Integration.NLog, Version=1.0.0.82, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\thirdParty\ninject\Ninject.Integration.NLog.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
